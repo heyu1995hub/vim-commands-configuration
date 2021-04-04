@@ -1,0 +1,38 @@
+ ==============================================================================================================================================                                                                 
+1.About change mode from normal mode to other mode
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ Commands                    Aim mode                Actions                                                               back to normal mode 
+ 
+ ---------------------------------------------------------------------------------------------------------------------------------------------
+i                            insert                  insert text before the cursor                                         |  presss Esc
+I                            ...                     insert text at the start of the line                                  |  ...
+
+a                            ...                     append text after the cursor                                          |  ...
+A                            ...                     append text at the end of the line                                    |  ...
+
+o                            ...                     open a new line below                                                 |  ...
+O (upper case)               ...                     open a new line above                                                 |  ...
+ 
+s                            ...                     substitute the current character                                      |  ...
+S (upper case)               ...                     substitute the current line                                           |  ...
+
+r                            ...                     replace the current character                                         |  
+R                            ...                     replace the continuous characters                                     | 
+
+v                            visual                  get into visula mode,working on a character basis                     |  press Esc
+V (upper case)               ...                     get into visula mode,working on s line basis
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+================================================================================================================================================
+2.About moving around in normal or visual mode 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Commands                                            Actions                                                  prefixing
+------------------------------------------------------------------------------------------------------------------------------------------------
+h                                                   going left in chatacter basis                            |add n(a number) before the command,and it can move like repeating 
+j                                                   going down in line basis                                 |the command n times.For example,you can type 3j to goig dowm if 
+k                                                   going up in line basis                                   |you want to going to the next three lines.
+l                                                   going right in character basis                           |
+
+
+
